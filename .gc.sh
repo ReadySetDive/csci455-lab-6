@@ -68,7 +68,7 @@ printf "MAKE KEY AT THE FOLLOWING:    https://github.com/$repo_owner/$repo_name/
 printf "KEY VALUE:                    "
 cat .auth/deploy_key.pub
 
-printf "ADD SUBMODULE WITH:           git submodule add $repo_http_address $repo_name"
+printf "ADD SUBMODULE WITH:           git submodule add $repo_http_address {REPO_NAME_HERE}"
 
 printf "\nPRESS ENTER TO FINISH"
 read ans
