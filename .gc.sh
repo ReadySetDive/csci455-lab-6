@@ -1,10 +1,10 @@
 name="Matthew Gordy"
-email="mgordy@usc.edu""
+email="mgordy@usc.edu"
 repo_owner="ReadySetDive"
 repo_name="csci455-lab-6"
 
 
-ssh_cfg_dir="../../../.ssh/config
+ssh_cfg_dir="../../../.ssh/config"
 
 repo_http_address="https://github.com/$repo_owner/$repo_name.git"
 repo_ssh_address="git@github.com:$repo_owner/$repo_name.git"
