@@ -114,9 +114,9 @@ public class Names {
          // shift all the elements over to make room for the new
          // element
 
-         for (int i = targetLoc; i < namesArr.size() - 1; i++) {
+         for (int i = namesArr.size()-1; i > targetLoc; i--) {
 
-            namesArr.set(i+1, namesArr.get(i));
+            namesArr.set(i, namesArr.get(i-1));
          }
 
          namesArr.set(targetLoc, newName);
