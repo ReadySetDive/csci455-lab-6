@@ -202,7 +202,7 @@ public class NamesTester {
                                    String expectedResult, 
                                    int expectedSize) {
 
-      System.out.println("Attempt insert: " + newName);
+      System.out.println("\nAttempt insert: " + newName);
       names.insert(newName);
       System.out.println("Names in list [exp: "
                          + expectedResult + "]: ");

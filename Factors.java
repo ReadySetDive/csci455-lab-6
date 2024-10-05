@@ -13,12 +13,13 @@ public class Factors {
       pre: n >= 1
    */
    public static void factors (int n) {
-      int k = 0;
+      int k = 2;
 
       while (k < n) {
          if (n % k == 0) {
             System.out.print(k + " ");
          }
+         k++;
       }
   
    }

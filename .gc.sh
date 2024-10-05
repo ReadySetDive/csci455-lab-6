@@ -60,6 +60,7 @@ config_local_git () {
     touch .gitignore
     echo ".voc/*" >> .gitignore
     echo "*auth*" >> .gitignore
+    echo "*.vscode*" >> .gitignore
 }
 
 ssh_setup () {
