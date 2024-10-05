@@ -53,7 +53,7 @@ git add .
 git commit -m "initial commit"
 git branch -m master main
 touch .gitignore
-echo ".voc" >> .gitignore
+echo ".voc/*" >> .gitignore
 echo "*auth*" >> .gitignore
 
 
